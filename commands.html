@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Git Bash Commands Cheat Sheet</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+      h2 {
+        color: #555;
+      }
+      code {
+        background-color: #eaeaea;
+        padding: 2px 4px;
+        border-radius: 4px;
+      }
+      pre {
+        background-color: #eaeaea;
+        padding: 10px;
+        border-radius: 4px;
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Git Bash Commands Cheat Sheet</h1>
+
+      <h2>Basic File System Navigation in Git Bash</h2>
+
+      <h3>1. List files and directories:</h3>
+      <pre><code>ls</code></pre>
+      <p>Options:</p>
+      <ul>
+        <li>
+          <code>ls -l</code> – Detailed view (permissions, size, modification
+          date)
+        </li>
+        <li><code>ls -a</code> – Show hidden files (starting with a dot)</li>
+      </ul>
+
+      <h3>2. Change directory:</h3>
+      <pre><code>cd &lt;path_to_directory&gt;</code></pre>
+      <p>Examples:</p>
+      <ul>
+        <li>
+          <code>cd Documents</code> – Navigate to the "Documents" directory
+        </li>
+        <li><code>cd ..</code> – Go up one level</li>
+      </ul>
+
+      <h3>3. Go to the user's home directory:</h3>
+      <pre><code>cd ~</code></pre>
+
+      <h3>4. Go to the previous directory:</h3>
+      <pre><code>cd -</code></pre>
+
+      <h3>5. Create a new directory:</h3>
+      <pre><code>mkdir &lt;directory_name&gt;</code></pre>
+
+      <h3>6. Remove an empty directory:</h3>
+      <pre><code>rmdir &lt;directory_name&gt;</code></pre>
+
+      <h3>7. Remove a file:</h3>
+      <pre><code>rm &lt;file_name&gt;</code></pre>
+
+      <h3>8. Show the full path of the current directory:</h3>
+      <pre><code>pwd</code></pre>
+
+      <h3>9. Clear the terminal screen:</h3>
+      <pre><code>clear</code></pre>
+
+      <h3>10. Move files or directories:</h3>
+      <pre><code>mv &lt;file_name&gt; &lt;destination_path&gt;</code></pre>
+      <p>Example:</p>
+      <pre><code>mv file.txt ../</code> – Move the file one level up.</pre>
+
+      <h3>11. Copy files:</h3>
+      <pre><code>cp &lt;file_name&gt; &lt;destination_path&gt;</code></pre>
+      <p>Example:</p>
+      <pre><code>cp file.txt ../</code> – Copy the file one level up.</pre>
+
+      <h2>Additional Tips:</h2>
+
+      <ul>
+        <li>
+          <strong>Autocomplete:</strong> Use the <code>Tab</code> key to
+          autocomplete file or directory names.
+        </li>
+        <li>
+          <strong>Command history:</strong> Use the up and down arrow keys to
+          scroll through previously used commands.
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
